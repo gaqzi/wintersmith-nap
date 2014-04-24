@@ -5,8 +5,7 @@
   "main": "lib/wintersmith-nap.js",
   "scripts": {
     "test": "mkdir -p example/build/ && ./node_modules/.bin/vows test/* --spec && rm -r example/build/*",
-    "prepublish": "./bin/compile",
-    "install": "./bin/compile"
+    "prepublish": "./bin/compile"
   },
   "repository": {
     "type": "git",
