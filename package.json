@@ -2,7 +2,7 @@
   "name": "wintersmith-nap",
   "version": "0.2.1",
   "description": "Minimalistic plugin to connect wintersmith with nap",
-  "main": "src/wintersmith-nap.js",
+  "main": "lib/wintersmith-nap.js",
   "scripts": {
     "test": "mkdir -p example/build/ && ./node_modules/.bin/vows test/* --spec && rm -r example/build/*",
     "prepublish": "./bin/compile"
